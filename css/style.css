@@ -192,7 +192,103 @@ ol {
   width: 300px;
 }
 /* =======================
-      Areas Part End
+      Coaching Part End
+   ======================= */
+
+/* =======================
+      Feedback Part Start
+   ======================= */
+#feedback {
+  padding: 120px 0;
+  background: #faf8f6;
+}
+.feedback_heading h2 {
+  width: 530px;
+}
+.feedback_slide {
+  padding-top: 36px;
+}
+.slide_items {
+  padding: 48px;
+  background: #ffffff;
+  margin-left: 20px;
+}
+.slide_items p {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #4a556c;
+  width: 305px;
+}
+.slide_items h6 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Kumbh Sans", sans-serif;
+  width: fit-content;
+  padding: 15px 0;
+}
+.slide_items ul {
+  display: flex;
+  gap: 4px;
+  padding-top: 15px;
+  width: fit-content;
+}
+.slide_items ul li {
+  color: #fec84b;
+}
+/* =======================
+      Feedback Part End
+   ======================= */
+
+/* =======================
+      Blog Part Start
+   ======================= */
+#blog {
+  padding: 100px;
+}
+.blog_heading h2 {
+  width: 680px;
+  text-align: center;
+  margin: 0 auto;
+}
+.blog_details {
+  padding: 63px 0 53px;
+  display: flex;
+  gap: 30px;
+}
+.blog_items .item_text {
+  padding: 24px 28px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.blog_items .item_text h4 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #333461;
+  padding-bottom: 12px;
+  width: 300px;
+}
+.blog_items .item_text p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #4a556c;
+  width: 300px;
+}
+.blog_button {
+  text-align: center;
+}
+.blog_button a {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #fff;
+  background: #20ad96;
+  padding: 9px 70px;
+  border-radius: 10px;
+}
+/* =======================
+      Blog Part End
    ======================= */
 
 /* =======================
