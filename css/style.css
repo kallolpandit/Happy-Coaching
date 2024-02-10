@@ -143,7 +143,7 @@ ol {
   align-items: center;
 }
 .success ul li .counter,
-span {
+.success ul li span {
   font-size: 24px;
   font-weight: 800;
   color: #333461;
@@ -159,10 +159,40 @@ span {
    ======================= */
 
 /* =======================
-      Menu Part Start
+      Areas Part Start
    ======================= */
+#coaching {
+  padding: 100px 0 80px;
+}
+.coaching_details {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 56px;
+}
+.coaching_text p {
+  width: 468px;
+  font-size: 16px;
+}
+.coaching_text span {
+  display: inline-block;
+  padding-top: 24px;
+}
+
+.coaching_part h4 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #041434;
+  padding: 32px 0 16px;
+}
+.coaching_part p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Kumbh Sans", sans-serif;
+  width: 300px;
+}
 /* =======================
-      Menu Part End
+      Areas Part End
    ======================= */
 
 /* =======================
