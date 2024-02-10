@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+.common_text h2 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #333461;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.common_text p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #4a556c;
+  font-family: "Kumbh Sans", sans-serif;
+}
+/* ========== Common Css End =========== */
+
+/* =======================
+      Menu Part Start
+   ======================= */
+.main_menu {
+  padding: 16px 0 !important;
+  background: #ffffff;
+}
+.main_menu ul {
+  gap: 30px;
+}
+.main_menu ul li a {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #4a556c !important;
+}
+.main_menu .menu_button a {
+  padding: 11px 16px;
+  background: #20ad96;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #ffffff;
+  transition: all linear.1s;
+}
+
+/* .main_menu .menu_button a:hover {
+  transform: scale(1.1);
+  box-shadow: -1px 1px 20px -1px rgba(0, 127, 95, 0.94);
+  -webkit-box-shadow: -1px 1px 20px -1px rgba(0, 127, 95, 0.998);
+  -moz-box-shadow: -1px 1px 20px -1px rgba(0, 127, 95, 0.998);
+} */
+/* =======================
+      Menu Part End
+   ======================= */
+
+/* =======================
+      Banner Part Start
+   ======================= */
+#banner {
+  padding: 100px 0;
+  background: #faf8f6;
+}
+.banner_details {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 70px; */
+}
+.banner_text h6 {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #4a556cc2;
+}
+.banner_text h1 {
+  font-size: 72px;
+  font-weight: 800;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #333461;
+  padding-top: 6px;
+  width: 520px;
+}
+.banner_text p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #4a556c;
+  width: 545px;
+  line-height: 160%;
+  padding: 18px 0;
+}
+.banner_text a {
+  display: inline-block;
+  padding: 9px 45px;
+  background: #20ad96;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #ffffff;
+  transition: all linear.1s;
+}
+.banner_img img {
+}
+/* =======================
+      Banner Part End
+   ======================= */
+
+/* =======================
+      Menu Part Start
+   ======================= */
+/* =======================
+      Menu Part End
+   ======================= */
+
+/* =======================
+      Menu Part Start
+   ======================= */
+/* =======================
+      Menu Part End
+   ======================= */
+
+/* =======================
+      Menu Part Start
+   ======================= */
+/* =======================
+      Menu Part End
+   ======================= */
+
+/* =======================
+      Menu Part Start
+   ======================= */
+/* =======================
+      Menu Part End
+   ======================= */
