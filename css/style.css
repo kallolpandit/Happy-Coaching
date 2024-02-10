@@ -91,7 +91,6 @@ ol {
 .banner_details {
   display: flex;
   justify-content: space-between;
-  /* gap: 70px; */
 }
 .banner_text h6 {
   font-size: 16px;
@@ -127,7 +126,33 @@ ol {
   color: #ffffff;
   transition: all linear.1s;
 }
-.banner_img img {
+.banner_img {
+  position: relative;
+}
+.success {
+  position: absolute;
+  top: -8%;
+  left: -25%;
+  background: #fff;
+  padding: 24px;
+  /* transform: translate(-10% -10%); */
+}
+.success ul {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.success ul li .counter,
+span {
+  font-size: 24px;
+  font-weight: 800;
+  color: #333461;
+  display: inline;
+}
+.success ul li p {
+  font-size: 12px;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #4a556c;
 }
 /* =======================
       Banner Part End
