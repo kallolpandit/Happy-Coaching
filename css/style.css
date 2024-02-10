@@ -254,7 +254,10 @@ ol {
 .blog_details {
   padding: 63px 0 53px;
   display: flex;
-  gap: 30px;
+  gap: 20px;
+}
+.blog_items {
+  margin: 0 auto;
 }
 .blog_items .item_text {
   padding: 24px 28px;
@@ -292,10 +295,54 @@ ol {
    ======================= */
 
 /* =======================
-      Menu Part Start
+      Guide Part Start
    ======================= */
+#guide {
+  padding: 120px 0;
+}
+.guide_heading p {
+  padding: 22px 0;
+  font-size: 22px;
+}
+.guide_heading span {
+  display: inline-block;
+  font-size: 17px;
+  padding-top: 10px;
+}
+.guide_heading a {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #fff;
+  padding: 9px 45px;
+  background: #20ad96;
+  border-radius: 10px;
+}
+.guide_img {
+  position: relative;
+}
+.guide_img img {
+  margin-left: 80px;
+}
+.guide_img .free {
+  position: absolute;
+  top: -8%;
+  right: -8px;
+  height: 100px;
+  width: 100px;
+  background: #20ad96;
+  border-radius: 50%;
+}
+.guide_img .free p {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #fff;
+  text-align: center;
+  line-height: 100px;
+}
 /* =======================
-      Menu Part End
+      Guide Part End
    ======================= */
 
 /* =======================
