@@ -398,6 +398,54 @@ ol {
    ======================= */
 
 /* =======================
+      Subscribe Part Start
+   ======================= */
+#subscribe {
+  padding-bottom: 64px;
+}
+.sub_details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sub_heading h2 {
+  font-size: 30px;
+  padding-bottom: 16px;
+}
+.sub_search {
+  display: flex;
+  gap: 16px;
+}
+.sub_search input {
+  border: 1px solid #d0d5dd;
+  border-radius: 5px;
+}
+.sub_search input::placeholder {
+  padding: 10px 14px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.sub_search a {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #fff;
+  padding: 10px 36px;
+  background: #20ad96;
+  border-radius: 8px;
+  border: 1px solid #20ad96;
+  transition: all linear 0.3s;
+}
+.sub_search a:hover {
+  background: transparent;
+  color: #20ad96;
+}
+/* =======================
+      Subscribe Part End
+   ======================= */
+
+/* =======================
       Menu Part Start
    ======================= */
 /* =======================
