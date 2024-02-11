@@ -1,0 +1,317 @@
+@media (min-width: 1400px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+@media (max-width: 575.98px) {
+  /* =======================
+        Common Css Start
+    ======================== */
+  .common_text h2 {
+    font-size: 28px;
+    padding-bottom: 14px;
+  }
+  .common_text p {
+    font-size: 14px;
+  }
+  /* =======================
+        Common Css End
+    ======================== */
+
+  /* =======================
+        Menu Part Start
+    ======================== */
+
+  .main_menu ul {
+    gap: 0px;
+    text-align: center;
+  }
+
+  .main_menu ul li {
+    margin: 0 auto;
+  }
+  .menu_button {
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .main_menu .menu_button a {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+  .main_menu .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .main_menu .navbar-toggler {
+    border: 0;
+  }
+  /* =======================
+        Menu Part End
+    ======================== */
+
+  /* =======================
+      Banner Part Start
+    ========================*/
+  #banner {
+    padding: 60px 0;
+  }
+  .banner_details {
+    flex-direction: column;
+    gap: 60px;
+  }
+  .banner_text h6 {
+    font-size: 10px;
+  }
+  .banner_text h1 {
+    font-size: 42px;
+    width: 100%;
+  }
+  .banner_text p {
+    font-size: 14px;
+    width: 100%;
+    padding: 16px 0;
+  }
+  .banner_text a {
+    padding: 8px 26px;
+    font-size: 12px;
+  }
+  .success {
+    top: -10%;
+    left: 0;
+    padding: 14px;
+  }
+  .success ul {
+    gap: 10px;
+  }
+  .success ul li .counter,
+  .success ul li span {
+    font-size: 18px;
+  }
+  /* =======================
+      Banner Part End
+    ======================== */
+
+  /* =======================
+        Coaching Part Start
+    ======================== */
+  #coaching {
+    padding: 60px 0 40px;
+  }
+  .coaching_details {
+    padding-bottom: 36px;
+    flex-direction: column;
+  }
+  .coaching_text p {
+    width: 100%;
+    font-size: 14px;
+  }
+  .coaching_text span {
+    padding-top: 16px;
+  }
+  .coaching_part {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .coaching_part h4 {
+    font-size: 18px;
+    padding: 24px 0 10px;
+  }
+  .coaching_part p {
+    font-size: 14px;
+    width: 100%;
+  }
+  /* =======================
+        Coaching Part End
+    ======================== */
+
+  /* =======================
+        Feedback Part Start
+    ========================= */
+  #feedback {
+    padding: 60px 0;
+  }
+  .feedback_heading h2 {
+    width: 100%;
+    text-align: center;
+  }
+  .feedback_details {
+    padding-top: 16px;
+    flex-direction: column;
+  }
+  .feedback_items {
+    padding: 20px;
+    text-align: center;
+  }
+  .feedback_items p {
+    font-size: 16px;
+    width: 100%;
+  }
+  .feedback_items h6 {
+    font-size: 18px;
+    padding: 12px 0;
+    margin: 0 auto;
+  }
+  .feedback_items ul {
+    gap: 2px;
+    padding-top: 12px;
+    margin: 0 auto;
+  }
+  /* =======================
+        Feedback Part End
+    ========================= */
+
+  /* =======================
+        Blog Part Start
+    ========================= */
+  #blog {
+    padding: 60px 0;
+  }
+  .blog_heading h2 {
+    width: 100%;
+  }
+  .blog_details {
+    padding: 40px 0 34px;
+    gap: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .blog_items .item_text {
+    padding: 16px 20px;
+    text-align: center;
+  }
+  .blog_items .item_text h4 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Kumbh Sans", sans-serif;
+    color: #333461;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+  .blog_items .item_text p {
+    font-size: 14px;
+    width: 100%;
+  }
+  .blog_button a {
+    font-size: 12px;
+    padding: 7px 48px;
+  }
+  /* ========================
+        Blog Part End
+    ========================= */
+
+  /* ========================
+        Guide Part Start
+    ========================= */
+  #guide {
+    padding: 60px 0;
+  }
+  .guide_heading {
+    text-align: center;
+  }
+  .guide_heading p {
+    padding: 12px 0;
+    font-size: 14px;
+  }
+  .guide_heading span {
+    font-size: 12px;
+    padding-top: 8px;
+  }
+  .guide_heading a {
+    font-size: 12px;
+    padding: 7px 38px;
+  }
+  .guide_img {
+    padding-top: 50px;
+  }
+  .guide_img .free {
+    top: 8%;
+    right: -10px;
+    height: 80px;
+    width: 80px;
+  }
+  .guide_img .free p {
+    font-size: 12px;
+    line-height: 80px;
+  }
+  /* ========================
+        Guide Part End
+    ========================= */
+  /* ========================
+    Complimentary Part Start
+    ========================= */
+  #complimentary {
+    padding-bottom: 40px;
+  }
+  .complimentary_details {
+    flex-direction: column;
+  }
+  .com_heading {
+    text-align: center;
+  }
+  .com_heading h2 {
+    padding-top: 26px;
+  }
+  .com_heading p {
+    padding: 10px 0 30px;
+  }
+  /* ========================
+    Complimentary Part End
+    ========================= */
+
+  /* ========================
+       Subscribe Part End
+    ========================= */
+  #subscribe {
+    padding: 34px 0;
+    background: #faf8f6;
+  }
+  .sub_details {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .sub_heading {
+    text-align: center;
+  }
+  .sub_search {
+    gap: 10px;
+    flex-direction: column;
+  }
+  .sub_search input {
+    padding: 10px;
+  }
+  .sub_search a {
+    font-size: 10px;
+    padding: 8px 24px;
+    text-align: center;
+  }
+  /* ========================
+       Subscribe Part End
+    ========================= */
+
+  /* ========================
+        Footer Part End
+    ========================= */
+  #footer {
+    padding: 38px 0;
+  }
+  .footer_details {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  .footer_heading p {
+    font-size: 14px;
+    padding-top: 18px;
+    width: 100%;
+  }
+  /* ========================
+        Footer Part End
+    ========================= */
+}
