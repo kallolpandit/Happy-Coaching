@@ -628,9 +628,9 @@
     font-size: 12px;
   }
   .success {
-    top: -10%;
+    top: -7%;
     left: 0;
-    padding: 14px;
+    padding: 8px;
   }
   .success ul {
     gap: 10px;
