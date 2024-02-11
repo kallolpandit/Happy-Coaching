@@ -4,8 +4,297 @@
 @media (min-width: 1200px) and (max-width: 1399.98px) {
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  /* =======================
+        Banner Part  Start
+    ======================== */
+  #banner {
+    padding: 90px 0;
+  }
+  .banner_text img {
+    padding-bottom: 50px;
+  }
+  /* =======================
+        Coaching Part  End
+    ======================== */
+  .coaching_part {
+    text-align: center;
+  }
+  .coaching_part p {
+    width: 100%;
+  }
+  /* =======================
+        Coaching Part  Start
+    ======================== */
+  /* =======================
+        Feedback Part  End
+    ======================== */
+  #feedback {
+    padding: 100px 0;
+    background: #faf8f6;
+  }
+  .feedback_items {
+    padding: 26px;
+    text-align: center;
+  }
+  .feedback_items p {
+    font-size: 20px;
+    width: 100%;
+  }
+  .feedback_items h6 {
+    padding: 12px 0;
+    margin: 0 auto;
+  }
+  .feedback_items ul {
+    margin: 0 auto;
+  }
+  /* =======================
+        Feedback Part  Start
+    ======================== */
+  /* =======================
+        Blog Part  End
+    ======================== */
+  #blog {
+    padding: 90px 0;
+  }
+  .blog_details {
+    padding: 56px 0 46px;
+  }
+  .blog_items .item_text {
+    text-align: center;
+  }
+  .blog_items .item_text h4 {
+    font-size: 18px;
+    width: 100%;
+  }
+  .blog_items .item_text p {
+    font-size: 16px;
+    width: 100%;
+  }
+  /* =======================
+        Blog Part  Start
+    ======================== */
+  /* =======================
+        Guide Part  End
+    ======================== */
+  #guide {
+    padding: 70px 0;
+  }
+  /* =======================
+        Guide Part  Start
+    ======================== */
+  /* =======================
+        Menu Part  End
+    ======================== */
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
+  /* =======================
+        Common Css  Start
+    ======================== */
+  .common_text h2 {
+    font-size: 34px;
+  }
+  /* =======================
+        Common Css  End
+    ======================== */
+  /* =======================
+        Menu Part  Start
+    ======================== */
+  .main_menu ul {
+    gap: 0px;
+    text-align: center;
+  }
+
+  .main_menu ul li {
+    margin: 0 auto;
+  }
+  .main_menu ul li a {
+    font-size: 15px;
+  }
+  .menu_button {
+    width: fit-content;
+    margin: 0 auto !important;
+  }
+  .main_menu .menu_button a {
+    padding: 9px 16px;
+    font-size: 14px;
+  }
+  .main_menu .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .main_menu .navbar-toggler {
+    border: 0;
+  }
+  /* =======================
+        Menu Part  End
+    ======================== */
+
+  /* =======================
+        Banner Part  Start
+    ======================== */
+  #banner {
+    padding: 70px 0;
+    background: #faf8f6;
+  }
+  .banner_details {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .banner_text h6 {
+    font-size: 14px;
+  }
+  .banner_text h1 {
+    font-size: 52px;
+    width: 100%;
+  }
+  .banner_text p {
+    font-size: 16px;
+    width: 100%;
+  }
+  /* =======================
+        Banner Part  End
+    ======================== */
+
+  /* =======================
+     Coaching Part  Start
+    ======================== */
+  #coaching {
+    padding: 80px 0 50px;
+  }
+  .coaching_details {
+    flex-direction: column;
+  }
+  .coaching_text p {
+    padding-top: 30px;
+  }
+  .coaching_part {
+    text-align: center;
+  }
+  .coaching_part h4 {
+    font-size: 18px;
+    padding: 28px 0 14px;
+  }
+  .coaching_part p {
+    font-size: 14px;
+    width: 100%;
+  }
+  /* =======================
+     Coaching Part  End
+    ======================== */
+
+  /* =======================
+        Feedback Part  Start
+    ======================== */
+  #feedback {
+    padding: 70px 0;
+    background: #faf8f6;
+  }
+  .feedback_details {
+    flex-direction: column;
+  }
+  .feedback_items {
+    padding: 20px;
+    text-align: center;
+  }
+  .feedback_items p {
+    font-size: 24px;
+    width: 100%;
+  }
+  .feedback_items h6 {
+    margin: 0 auto;
+  }
+  .feedback_items ul {
+    margin: 0 auto;
+  }
+  /* =======================
+        Feedback Part  End
+    ======================== */
+
+  /* =======================
+        Blog Part  Start
+    ======================== */
+  #blog {
+    padding: 60px 0;
+  }
+  .blog_heading h2 {
+    width: 100%;
+  }
+  .blog_details {
+    padding: 52px 0 42px;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .blog_items .item_text {
+    padding: 22px 24px;
+    text-align: center;
+  }
+
+  /* =======================
+        Blog Part  End
+    ======================== */
+
+  /* =======================
+        Guide Part  Start
+    ======================== */
+  #guide {
+    padding: 60px 0;
+  }
+  .guide_heading p {
+    font-size: 20px;
+  }
+  .guide_heading a {
+    padding: 10px 52px;
+  }
+  .guide_img {
+    margin-top: 50px;
+  }
+  .guide_img .free {
+    top: -6%;
+  }
+  /* =======================
+        Guide Part  End
+    ======================== */
+
+  /* =======================
+        Complimentary Part  Start
+    ======================== */
+  #complimentary {
+    padding-bottom: 50px;
+  }
+  .com_heading p {
+    padding: 15px 0 34px;
+  }
+  /* =======================
+        Complimentary Part  End
+    ======================== */
+
+  /* =======================
+        Subscribe Part  Start
+    ======================== */
+  #subscribe {
+    padding: 38px 0;
+  }
+  .sub_details {
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+  }
+  /* =======================
+        Subscribe Part  End
+    ======================== */
+
+  /* =======================
+        footer Part  Start
+    ======================== */
+  #footer {
+    padding: 48px 0;
+  }
+  .footer_details {
+    flex-wrap: wrap;
+  }
+  /* =======================
+        footer Part  End
+    ======================== */
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   /* =======================
