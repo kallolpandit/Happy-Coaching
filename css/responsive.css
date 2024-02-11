@@ -8,6 +8,257 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
+  /* =======================
+        Common Css  Start
+    ======================== */
+  .common_text h2 {
+    font-size: 36px;
+  }
+  /* =======================
+        Common Css  End
+    ======================== */
+  /* =======================
+        Menu Part  Start
+    ======================== */
+  .main_menu ul {
+    gap: 0px;
+    text-align: center;
+  }
+
+  .main_menu ul li {
+    margin: 0 auto;
+  }
+  .main_menu ul li a {
+    font-size: 14px;
+  }
+  .menu_button {
+    width: fit-content;
+    margin: 0 auto !important;
+  }
+  .main_menu .menu_button a {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+  .main_menu .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .main_menu .navbar-toggler {
+    border: 0;
+  }
+  /* =======================
+        Menu Part  End
+    ======================== */
+
+  /* =======================
+        Banner Part  Start
+    ======================== */
+  #banner {
+    padding: 60px 0;
+  }
+  .banner_details {
+    flex-direction: column;
+    gap: 60px;
+  }
+  .banner_text img {
+    padding-bottom: 40px;
+  }
+  .banner_text h6 {
+    font-size: 14px;
+  }
+  .banner_text h1 {
+    font-size: 52px;
+    width: 100%;
+  }
+  .banner_text p {
+    font-size: 16px;
+    width: 100%;
+  }
+  .success {
+    top: -5%;
+    left: -5%;
+    padding: 18px;
+  }
+  /* =======================
+        Banner Part  End
+    ======================== */
+
+  /* =======================
+        Coaching Part  Start
+    ======================== */
+  #coaching {
+    padding: 70px 0 45px;
+  }
+  .coaching_details {
+    padding-bottom: 40px;
+    flex-direction: column;
+    gap: 26px;
+  }
+  .coaching_text p {
+    width: 100%;
+    font-size: 15px;
+  }
+  .coaching_text span {
+    padding-top: 16px;
+  }
+  .coaching_part {
+    text-align: center;
+  }
+  .coaching_part p {
+    font-size: 16px;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  /* =======================
+        Coaching Part  End
+    ======================== */
+
+  /* =======================
+       Feedback Part  Start
+    ======================== */
+  #feedback {
+    padding: 70px 0;
+  }
+  .feedback_heading h2 {
+    width: 100%;
+    text-align: center;
+  }
+  .feedback_details {
+    flex-direction: column;
+  }
+  .feedback_items {
+    padding: 26px;
+  }
+  .feedback_items {
+    padding: 26px;
+    text-align: center;
+  }
+  .feedback_items p {
+    font-size: 20px;
+    width: 100%;
+  }
+  .feedback_items h6 {
+    font-size: 22px;
+    margin: 0 auto;
+  }
+  .feedback_items ul {
+    padding-top: 12px;
+    margin: 0 auto;
+  }
+  /* =======================
+       Feedback Part  End
+    ======================== */
+
+  /* =======================
+        Blog Part  Start
+    ======================== */
+  #blog {
+    padding: 60px 0;
+  }
+  .blog_heading h2 {
+    width: 100%;
+  }
+  .blog_details {
+    padding: 48px 0 40px;
+    flex-direction: column;
+  }
+  .blog_button a {
+    font-size: 12px;
+    padding: 8px 56px;
+  }
+  /* =======================
+        Blog Part  End
+    ======================== */
+
+  /* =======================
+        Guide Part  Start
+    ======================== */
+  #guide {
+    padding: 40px 0;
+  }
+  .guide_heading {
+    padding: 26px 0 36px;
+  }
+  .guide_heading p {
+    font-size: 18px;
+  }
+  .guide_heading span {
+    font-size: 16px;
+  }
+  .guide_heading a {
+    font-size: 12px;
+    padding: 8px 34px;
+  }
+  .guide_img .free {
+    top: -7%;
+    right: -10px;
+    height: 90px;
+    width: 90px;
+  }
+  /* =======================
+        Guide Part  End
+    ======================== */
+
+  /* =======================
+    Complimentary Part  Start
+    ======================== */
+  #complimentary {
+    padding-bottom: 50px;
+  }
+  .complimentary_details {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .com_heading {
+    text-align: center;
+  }
+  .com_heading h2 {
+    padding-top: 40px;
+  }
+  .com_heading p {
+    padding: 18px 0 30px;
+  }
+  /* =======================
+    Complimentary Part  End
+    ======================== */
+
+  /* =======================
+     Subscribe Part  Start
+    ======================== */
+  #subscribe {
+    padding: 28px 0;
+    background: #faf8f6;
+  }
+  .sub_details {
+    flex-direction: column;
+    text-align: center;
+  }
+  .sub_search {
+    padding-top: 28px;
+  }
+  /* =======================
+     Subscribe Part  End
+    ======================== */
+
+  /* =======================
+        Footer Part  Start
+    ======================== */
+  #footer {
+    padding: 48px 0;
+  }
+  .footer_details {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  .footer_heading {
+    text-align: center;
+    margin: 0 auto;
+  }
+  /* =======================
+        Footer Part  End
+    ======================== */
 }
 @media (max-width: 575.98px) {
   /* =======================
@@ -35,6 +286,9 @@
 
   .main_menu ul li {
     margin: 0 auto;
+  }
+  .main_menu ul li a {
+    font-size: 12px;
   }
   .menu_button {
     width: fit-content;
@@ -64,6 +318,9 @@
   .banner_details {
     flex-direction: column;
     gap: 60px;
+  }
+  .banner_text img {
+    padding-bottom: 34px;
   }
   .banner_text h6 {
     font-size: 10px;

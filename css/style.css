@@ -60,6 +60,9 @@ ol {
   font-family: "Kumbh Sans", sans-serif;
   color: #4a556c !important;
 }
+.main_menu .menu_button {
+  margin-left: 30px;
+}
 .main_menu .menu_button a {
   padding: 11px 16px;
   background: #20ad96;
@@ -90,6 +93,9 @@ ol {
 .banner_details {
   display: flex;
   justify-content: space-between;
+}
+.banner_text img {
+  padding-bottom: 64px;
 }
 .banner_text h6 {
   font-size: 16px;
@@ -171,6 +177,9 @@ ol {
   display: flex;
   justify-content: space-between;
   padding-bottom: 56px;
+}
+.coaching_heading img {
+  padding-bottom: 16px;
 }
 .coaching_text p {
   width: 468px;
@@ -311,7 +320,10 @@ ol {
       Guide Part Start
    ======================= */
 #guide {
-  padding: 120px 0;
+  padding: 100px 0;
+}
+.guide_heading {
+  padding-top: 46px;
 }
 .guide_heading p {
   padding: 22px 0;
