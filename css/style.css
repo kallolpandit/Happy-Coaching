@@ -208,36 +208,40 @@ ol {
 .feedback_heading h2 {
   width: 530px;
 }
-.feedback_slide {
+.feedback_details {
   padding-top: 36px;
+  display: flex;
+  gap: 20px;
 }
-.slide_items {
-  padding: 48px;
+.feedback_items {
+  padding: 30px;
   background: #ffffff;
-  margin-left: 20px;
 }
-.slide_items p {
+.feedback_items p {
   font-size: 24px;
   font-weight: 400;
   font-family: "Kumbh Sans", sans-serif;
   color: #4a556c;
   width: 305px;
 }
-.slide_items h6 {
+.feedback_items h6 {
   font-size: 24px;
   font-weight: 700;
   font-family: "Kumbh Sans", sans-serif;
   width: fit-content;
   padding: 15px 0;
 }
-.slide_items ul {
+.feedback_items ul {
   display: flex;
   gap: 4px;
   padding-top: 15px;
   width: fit-content;
 }
-.slide_items ul li {
+.feedback_items .jane li {
   color: #fec84b;
+}
+.feedback_items ul li {
+  color: #dbdee6;
 }
 /* =======================
       Feedback Part End
@@ -286,7 +290,7 @@ ol {
 }
 .blog_button a {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   font-family: "Kumbh Sans", sans-serif;
   color: #fff;
   background: #20ad96;
@@ -320,7 +324,7 @@ ol {
 }
 .guide_heading a {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   font-family: "Kumbh Sans", sans-serif;
   color: #fff;
   padding: 9px 45px;
