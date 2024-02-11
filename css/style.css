@@ -401,7 +401,8 @@ ol {
       Subscribe Part Start
    ======================= */
 #subscribe {
-  padding-bottom: 64px;
+  padding: 48px 0;
+  background: #faf8f6;
 }
 .sub_details {
   display: flex;
@@ -421,7 +422,7 @@ ol {
   border-radius: 5px;
 }
 .sub_search input::placeholder {
-  padding: 10px 14px;
+  padding: 10px 14px !important;
   font-size: 16px;
   font-weight: 400;
   font-family: "Kumbh Sans", sans-serif;
@@ -446,8 +447,44 @@ ol {
    ======================= */
 
 /* =======================
-      Menu Part Start
+      Footer Part Start
    ======================= */
+#footer {
+  padding: 64px 0;
+}
+.footer_details {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_heading p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #4a556c78;
+  padding-top: 32px;
+  width: 320px;
+}
+.page p,
+.contact p {
+  font-size: 14px;
+  font-weight: 800;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #333461;
+  padding-bottom: 16px;
+}
+.page ul li a,
+.contact ul li a {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #4a556c78;
+  padding-bottom: 10px;
+  transition: all linear 0.3s;
+}
+.page ul li a:hover,
+.contact ul li a:hover {
+  color: #20ad96;
+}
 /* =======================
-      Menu Part End
+      Footer Part End
    ======================= */
